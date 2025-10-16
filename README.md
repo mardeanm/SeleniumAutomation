@@ -63,6 +63,6 @@ npm test
 Ensure package.json includes:
 ```bash
 "scripts": {
-  "test": "mocha --timeout 60000 --reporter mochawesome"
+    "test": "npx mocha --no-timeouts --reporter mochawesome --require mochawesome/register --reporter-options charts=true",
 }
 ```
