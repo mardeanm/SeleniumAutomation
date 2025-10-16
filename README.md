@@ -16,21 +16,22 @@ This project demonstrates real-world end-to-end test automation using:
 - Helpful test reports due to Mochawesome and automatic screenshots
 
 ## Folder Structure
-
-selenium/
-mochawesome-report/ # Auto-generated HTML test reports + screenshots
-    images/ # Screenshot folder
-node_modules/ # Project dependencies (npm install)
-test/ # Test cases
-    tc001.js # Valid login test  
-    tc002.js # Invalid login test
-functions.js # All reusable helper methods
-testSetup.js # Global imports used in each test
-data.json # Test data (user/pass/expected text)
-package.json # npm config + test script
-.gitignore # Ignored folders/files
-README.md # This file
-
+```bash
+selenium-automation/
+├── mochawesome-report/       # Auto-generated test reports
+│   └── images/               # Screenshots saved here
+├── node_modules/             # Installed dependencies
+├── test/                     # Test cases
+│   ├── tc001.js              # Valid login test case
+│   └── tc002.js              # Invalid login test case
+├── functions.js              # Helper methods: login, screenshots, assertions
+├── testSetup.js              # Shared imports and setup for all tests
+├── data.json                 # Test data (usernames, passwords, etc.)
+├── package.json              # npm config + test command
+├── package-lock.json         # Dependency lock file
+├── .gitignore                # Files/folders Git should ignore
+└── README.md                 # Project documentation
+```
 
 ## Sample Test Case
 
