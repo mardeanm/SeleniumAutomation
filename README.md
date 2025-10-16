@@ -42,8 +42,12 @@ Screenshots are automatically added to the Mochawesome report during the testcas
 <img width="1295" height="814" alt="image" src="https://github.com/user-attachments/assets/d0f71042-080c-4063-b437-3a65d76c24ec" />
 
 ## Test Report
-After Running open: mochawesome-report/mochawesome.html
-in your browser to view the report containing: test pass/fail summaries, console logs, screenshots
+After running the tests open the report in your browser with:
+```bash
+file:///C:/selenium/mochawesome-report/mochawesome.html
+```
+<img width="1896" height="869" alt="image" src="https://github.com/user-attachments/assets/d1b50e6e-dedc-452f-a498-b35dd63214f4" />
+
 
 ## Setup & Run
 Install Dependencies
