@@ -10,7 +10,7 @@ This project demonstrates real-world end-to-end test automation using:
 - Custom helper functions to modularize test logic
 - JSON-based data-driven testing
 
-## Festures:
+## Features:
 - Reusable Functions:Login, Screenshot, and Verifications in functions.js
 - Readable JSON Test Data for usernames, passwords, and other test inputs
 - Helpful test reports due to Mochawesome and automatic screenshots
